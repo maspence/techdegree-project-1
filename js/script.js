@@ -4,17 +4,17 @@ document.getElementById('loadQuote').addEventListener("click", printQuote, false
 
 //array of quotes 
 var quotes = [
-	{quote:"I don’t want to belong to any club that would accept me as one of its members.", 
+	{quote: "I don’t want to belong to any club that would accept me as one of its members.", 
 		person: 'Groucho Marx',
 			citation: 'Dunkirk Evening Observer',
 				year: '1949'
 		},	
-	{quote:"It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.",
+	{quote: "It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.",
 	 	person: 'J.R.R Tolkien',
 	  		citation: 'The Lord of the Rings',
 	  			year: '1954'
 	  	},
-	{quote:"Behind every great man is a woman rolling her eyes.",
+	{quote: "Behind every great man is a woman rolling her eyes.",
 	 	person: 'Jim Carrey',
 	  	},
 	{quote: 'History will be kind to me for I intend to write it',
