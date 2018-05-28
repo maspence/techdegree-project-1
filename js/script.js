@@ -41,11 +41,14 @@ function printQuote() {
  quoteInformation = getRandomQuote()
 	htmlMessageOutput = "<p class='quote'>" + quoteInformation.quote + "</p>";
 	htmlMessageOutput += "<p class='source'>" + quoteInformation.source + "</p>";
+
+	// conditonal printing of citation
 	if ( quoteInformation.citation !== undefined ) {
-		htmlMessageOutput += "<span class='citation'>" + quoteInformation.citation + '</span>';
-	} 
+		htmlMessageOutput += "<span class='citation'>" + quoteInformation.citation + "</span>";
+	}
+	//conditional printing of year 
 	if ( quoteInformation.year !== undefined ) {
-		htmlMessageOutput += '<span class="year">' + quoteInformation.year + '</span>';
+		htmlMessageOutput += "<span class='year'>" + quoteInformation.year + "</span>";
 	}
 }
 
