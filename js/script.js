@@ -49,7 +49,8 @@ function printQuote() {
 	//conditional printing of year 
 	if ( quoteInformation.year !== undefined ) {
 		htmlMessageOutput += "<span class='year'>" + quoteInformation.year + "</span>";
+		document.getElementById('quote-box').innerHTML = htmlMessageOutput;
 	}
 }
 
-document.getElementById('quote-box').innerHTML = htmlMessageOutput;
+
