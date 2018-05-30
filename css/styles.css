@@ -48,7 +48,7 @@ body {
 .citation {
   font-style: italic;
 }
-.citation:before {
+.source:after {
   content: ", ";
   font-style: normal;
 }
