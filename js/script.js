@@ -1,7 +1,15 @@
+// var sets time interval for quote Change
+var quoteChange = window.setInterval(changeQuote, 5000);
+// function clicks "loadQuote"
+function changeQuote() {
+	document.getElementById('loadQuote').click()
+}
 
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
+
+
 
 //array of quotes 
 var quotes = [
